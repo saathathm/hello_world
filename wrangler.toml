@@ -5,6 +5,6 @@ type = "javascript"
 command = "npm install"
 
 [env.production]
-route = "https://your-project.pages.dev/*"  # Use Cloudflare Pages URL for now
+route = "https://hello-world-12y.pages.dev/*"  # Use Cloudflare Pages URL for now
 zone_id = "your-zone-id"  # You can leave this for now if you don’t have a custom domain
 account_id = "your-account-id"
