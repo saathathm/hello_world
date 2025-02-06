@@ -2,9 +2,10 @@ name = "hello-world"
 type = "javascript"
 
 [build]
-command = "npm install"
+command = "npm run build"  # Runs your build process (like Webpack)
+output_dir = "build"       # Directory where the bundled code will go
 
 [env.production]
-route = "https://hello-world-12y.pages.dev/*"  # Use Cloudflare Pages URL for now
-zone_id = "your-zone-id"  # You can leave this for now if you don’t have a custom domain
+route = "https://hello-world-12y.pages.dev/*"
+zone_id = "your-zone-id"
 account_id = "your-account-id"
