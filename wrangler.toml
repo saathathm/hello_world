@@ -2,7 +2,7 @@ name = "hello-world"
 type = "javascript"
 
 [build]
-command = "npm install && npm run build"  # Run install and build commands
+command = "npm run build"  # Run install and build commands
 output_dir = "build"                      # Directory where the output file goes
 
 [env.production]
