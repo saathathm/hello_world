@@ -8,4 +8,4 @@ output_dir = "build"                      # Directory where the output file goes
 [env.production]
 route = "https://hello-world-12y.pages.dev/*"  # Your Pages domain (you'll need to update this)
 zone_id = "your-zone-id"  # Optional: Only needed if you're using a custom domain
-account_id = "your-account-id"  # Your Cloudflare account ID
+account_id = "9a672bc9fdb94006d556843ab468f894"  # Your Cloudflare account ID
